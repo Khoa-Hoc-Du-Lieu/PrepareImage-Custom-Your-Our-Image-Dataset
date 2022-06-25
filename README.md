@@ -1,4 +1,8 @@
 # PrepareImage - Custom Your Our Image Dataset
+
+<a href="https://pypi.org/project/prepareImage" target="_blank"><img src="https://img.shields.io/pypi/v/prepareImage?style=for-the-badge" alt="pypi"></a> 
+
+
  Flexible and Easy. We perform a package that help you build your own image dataset. Specially, it's easy to add your own prepare function 
 
 ## Install
