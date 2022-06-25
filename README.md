@@ -27,5 +27,5 @@ python prepare_data.py --mode split --train_dir ../training_data/new_data/train 
 2. Run on Jupyter Notebook
 ```python
 %%bash
-python3 combine.py
+python3 prepare_data.py
 ```
