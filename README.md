@@ -9,6 +9,8 @@ pip instal prepareImage
 
 ### 1. Fork this repo and custom it!
 ### 2. Class dataset
+Coming soon!\\
+This is what make this package powerful.
 ### 3. Run directly on file `prepare_data.py`
 `mode` in `["split", "combine", "line", "pos", "all", "gray", "look_alike", "without_edge"]`:
 - combine: combine input, output images, then split to train/validation/test set
