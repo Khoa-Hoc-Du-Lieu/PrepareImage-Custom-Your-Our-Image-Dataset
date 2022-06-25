@@ -32,12 +32,27 @@ python3 prepare_data.py
 
 Example:
 ```
-python prepare_data.py --image_dir ../training_data/lhq_256 --caffemodel hed_pretrained_bsds.caffemodel --mode all --pos2_dir ../training_data/new_data/pos2 --pos 2 --grayscale_dir ../training_data/new_data/grayscale --line_dir ../training_data/new_data/edge --train_dir ../training_data/new_data/train --test_dir ../training_data/new_data/test --val_dir ../training_data/new_data/val --output_dir ../training_data/new_data/grayscale --combine_dir ../training_data/new_data/combine
+python prepare_data.py --mode all \
+--image_dir ../training_data/lhq_256 \ 
+--caffemodel hed_pretrained_bsds.caffemodel \
+--pos2_dir ../training_data/new_data/pos2 \
+--pos 2 \
+--grayscale_dir ../training_data/new_data/grayscale \
+--line_dir ../training_data/new_data/edge \
+--train_dir ../training_data/new_data/train \
+--test_dir ../training_data/new_data/test \
+--val_dir ../training_data/new_data/val \
+--output_dir ../training_data/new_data/grayscale \
+--combine_dir ../training_data/new_data/combine
 ```
 
 Split Data:
 ```
-python prepare_data.py --mode split --train_dir ../training_data/new_data/train --test_dir ../training_data/new_data/test --val_dir ../training_data/new_data/val --combine_dir ../training_data/new_data/combine
+python prepare_data.py --mode split \
+--train_dir ../training_data/new_data/train \
+--test_dir ../training_data/new_data/test \
+--val_dir ../training_data/new_data/val \
+--combine_dir ../training_data/new_data/combine
 ```
 
 1. Run on Jupyter Notebook
