@@ -1,6 +1,11 @@
 # PrepareImage - Custom Your Our Image Dataset
  Flexible and Easy. We perform a package that help you build your own image dataset. Specially, it's easy to add your own prepare function 
 
+## Install
+```
+pip instal prepareImage
+```
+## How to use
 `mode` in `["split", "combine", "line", "pos", "all", "gray", "look_alike", "without_edge"]`:
 - combine: combine input, output images, then split to train/validation/test set
 - line: add line to input images
