@@ -1,0 +1,7 @@
+ImageHash==4.2.1
+numpy==1.22.4
+pandas==1.4.1
+Pillow==9.1.1
+scikit_image==0.19.3
+skimage==0.0
+Wand==0.6.7

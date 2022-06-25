@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0","ImageHash>=4.2.1","numpy>=1.22.4","pandas>=1.4.1","Pillow>=9.1.1","scikit_image>=0.19.3","Wand>=0.6.7"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "prepareImage"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Khang Nguyen", email="duncannguyen2k@gmail.com" },
 ]
